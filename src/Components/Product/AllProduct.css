@@ -1,0 +1,16 @@
+.allProducts{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.allProducts h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+.allProducts .products{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}

@@ -9,11 +9,14 @@
 }
 
 .homecategories .container{
-    width: 300px;
-    overflow: hidden;
+    width: 24%;
+    min-width: 300px;
     height: 300px;
+    overflow: hidden;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     border-radius: 10px;
     margin: 5px;
 }

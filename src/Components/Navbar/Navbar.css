@@ -19,11 +19,14 @@ nav .s1{
     align-items: center;
 }
 nav img{
-    width: 150px;
+    width: 120px;
+    padding : 4px;
+    border-radius: 100px;
 }
 nav .searchbar{
     display: flex;
     border: none;
+    width: 480px;
     box-shadow: 0 0 10px 0 rgba(0, 0,0,0.2) ;
     border-radius : 5px;
     overflow : hidden;

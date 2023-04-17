@@ -12,7 +12,7 @@ const BannerSlider = () => {
     button : 'https://www.google.com'
     },{
       id : 2,
-      img : 'https://media.istockphoto.com/id/1412353077/photo/happy-woman-working-at-a-supermarket.jpg?b=1&s=170667a&w=0&k=20&c=yLq4HI-WKmpPVMbE_CcFxJJtRiDt13UDapoQ7kwcsqI=',
+      img : 'https://images.unsplash.com/photo-1515706886582-54c73c5eaf41?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MnwyMjE1NjU5fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
       title : 'Fresh Vegatables and Fruits at your Door Step',
     description : 'We deliver fresh vegetables and fruits at your door step',
     button : 'https://www.google.com'
