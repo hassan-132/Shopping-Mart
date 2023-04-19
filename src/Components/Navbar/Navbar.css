@@ -19,9 +19,8 @@ nav .s1{
     align-items: center;
 }
 nav img{
-    width: 120px;
+    width: 150px;
     padding : 4px;
-    border-radius: 100px;
 }
 nav .searchbar{
     display: flex;

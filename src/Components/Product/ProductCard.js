@@ -1,16 +1,16 @@
 import React from 'react';
 import './ProductCard.css'
 
-const ProductCard = (data) => {
+const ProductCard = ({data}) => {
   return (
     <div className='product'>
       <div className="s1">
         <img src={data.productImage} alt={"no image"} />  
       </div>
       <div className="s2">
-      <h3>{ data.discountprice - (data.productPrice * data.discountprice / 100) }</h3>
+      <h3>${ data.productPrice - ((data.productPrice * data.discountPercent) / 100) }</h3>
       <span>${data.productPrice}</span>
-      <p>{data.productname}</p>
+      <p>{data.productName}</p>
       </div>
       <div className="s3"><p>{data.countType}</p></div>
       <div className="s4">

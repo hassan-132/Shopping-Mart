@@ -1,9 +1,11 @@
 import React from 'react';
 import ProductCard from './ProductCard';
-import img1 from '../../Assets/Images/1.png'
-import img2 from '../../Assets/Images/2.png'
-import img3 from '../../Assets/Images/3.png'
-import img4 from '../../Assets/Images/4.png'
+import img1 from '../../Assets/ProdImage/1.jpg';
+import img2 from '../../Assets/ProdImage/2.jpg';
+import img3 from '../../Assets/ProdImage/3.jpg';
+import img4 from '../../Assets/ProdImage/4.jpg';
+import img5 from '../../Assets/ProdImage/5.jpg';
+import './AllProduct.css'
 const AllProduct = () => {
     const products = [{
         id : 1,
@@ -11,7 +13,7 @@ const AllProduct = () => {
         productName : 'product 1',
         productPrice : 100,
         countType : '1 each',
-        disountPercent : 12
+        discountPercent : 12
     },
     {
         id : 2,
@@ -19,7 +21,7 @@ const AllProduct = () => {
         productName : 'product 2',
         productPrice : 200,
         countType : '1 per kg',
-        disountPercent : 12
+        discountPercent : 12
     },
     {
         id : 3,
@@ -27,59 +29,59 @@ const AllProduct = () => {
         productName : 'product 3',
         productPrice : 300,
         countType : '1 per kg',
-        disountPercent : 19
+        discountPercent : 19
     },{
         id : 4,
         productImage : img4,
         productName : 'product 4',
         productPrice : 400,
         countType : '1 per kg',
-        discountType : 19
+        discountPercent : 35
     },{
         id : 5,
-        productImage : img1,
+        productImage : img5,
         productName : 'product 5',
         productPrice : 100,
         countType : '1 each',
-        disountPercent : 12
+        discountPercent : 12
     },
     {
         id : 6,
-        productImage : img2,
+        productImage : img1,
         productName : 'product 6',
         productPrice : 200,
         countType : '1 per kg',
-        disountPercent : 12
+        discountPercent : 12
     },
     {
         id : 7,
-        productImage : img3,
+        productImage : img2,
         productName : 'product 7',
         productPrice : 300,
         countType : '1 per kg',
-        disountPercent : 19
+        discountPercent : 19
     },{
         id : 8,
-        productImage : img4,
+        productImage : img3,
         productName : 'product 8',
         productPrice : 400,
         countType : '1 per kg',
-        discountType : 19
+        discountPercent : 19
     },{
         id : 9,
-        productImage : img1,
+        productImage : img4,
         productName : 'product 9',
         productPrice : 100,
         countType : '1 each',
-        disountPercent : 12
+        discountPercent : 12
     },
     {
         id : 10,
-        productImage : img2,
+        productImage : img5,
         productName : 'product 10',
         productPrice : 200,
         countType : '1 per kg',
-        disountPercent : 15
+        discountPercent : 15
     }
 ]
   return (
